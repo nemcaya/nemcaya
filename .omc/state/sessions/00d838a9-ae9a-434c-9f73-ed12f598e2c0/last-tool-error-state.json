@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__claude-in-chrome__browser_batch",
+  "tool_input_preview": "{\"actions\":[{\"name\":\"computer\",\"input\":{\"action\":\"left_click\",\"ref\":\"ref_371\",\"tabId\":2049442224,\"action_summary\":\"Focuses the Bio field\"}},{\"name\":\"computer\",\"input\":{\"action\":\"type\",\"text\":\"I build ...",
+  "error": "actions[0] (computer:left_click) failed: No element found with reference: \"ref_371\". The element may have been removed from the page. (0 completed, 2 remaining)",
+  "timestamp": "2026-10-17T21:21:07.271Z",
+  "retry_count": 1
+}
