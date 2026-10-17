@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t">
 <title id="t">nemcaya</title>
-<desc id="d">I build small, sharp tools for macOS.</desc>
 <defs>
 <clipPath id="card"><rect width="1280" height="300" rx="20"/></clipPath>
 <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0e1428"/><stop offset="1" stop-color="#0a0d18"/></linearGradient>
@@ -29,8 +28,7 @@
 <path d="M914 0L772 300" stroke="#fff" stroke-opacity="0.300" stroke-width="1.2" fill="none"/><path d="M940 0L798 300" stroke="#fff" stroke-opacity="0.186" stroke-width="1.2" fill="none"/><path d="M966 0L824 300" stroke="#fff" stroke-opacity="0.096" stroke-width="1.2" fill="none"/>
 <path d="M888 0L746 300" stroke="url(#edge)" stroke-width="1.6" fill="none"/>
 <g transform="translate(888 0)"><path class="glint" d="M0 0L-35.5 75.0" stroke="url(#gl)" stroke-width="2.6" stroke-linecap="round" fill="none"/></g>
-<text class="n" x="82" y="154" fill="url(#nm)">nemcaya</text>
-<text class="t" x="85" y="208" fill="#9aa7d2">I build small, sharp tools for macOS.</text>
+<text class="n" x="82" y="181" fill="url(#nm)">nemcaya</text>
 </g>
 <rect x=".5" y=".5" width="1279" height="299" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
 </svg>
