@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+<title id="t">nemcaya</title>
+<desc id="d">I build small, sharp tools for macOS.</desc>
+<defs>
+<clipPath id="card"><rect width="1280" height="300" rx="20"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f6ff"/></linearGradient>
+<linearGradient id="pg" x1="1280" y1="0" x2="746" y2="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3a4bd0"/><stop offset=".5" stop-color="#6a52e0"/><stop offset="1" stop-color="#f2789f"/></linearGradient>
+<linearGradient id="bleed" x1="888" y1="0" x2="746" y2="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7a5cff"/><stop offset="1" stop-color="#ed739e"/></linearGradient>
+<linearGradient id="edge" x1="888" y1="0" x2="746" y2="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity=".25"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="-35.5" y2="75.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".6" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="sheen" cx="1130" cy="40" r="360" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9a86ff" stop-opacity=".22"/><stop offset="1" stop-color="#9a86ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="nm" x1="88" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#283CC8"/></linearGradient>
+<filter id="bl" filterUnits="userSpaceOnUse" x="-100" y="-100" width="1480" height="500"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<style>
+.n{font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI Variable Display","Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:650;font-size:116px;letter-spacing:-.034em;text-rendering:geometricPrecision}
+.t{font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI Variable Display","Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:500;font-size:30px;letter-spacing:-.006em;text-rendering:geometricPrecision}
+@keyframes gl{0%,12%{transform:translate(30px,-64px);opacity:0}22%{opacity:1}78%{opacity:1}88%,100%{transform:translate(-146px,326px);opacity:0}}
+@keyframes br{0%,100%{opacity:1}50%{opacity:.72}}
+.glint{animation:gl 8s ease-in-out infinite}
+.bleed{animation:br 7s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.glint,.bleed{animation:none}}
+</style>
+<g clip-path="url(#card)">
+<rect width="1280" height="300" fill="url(#bg)"/>
+<path class="bleed" d="M888 -20L746 320" stroke="url(#bleed)" stroke-opacity=".38" stroke-width="34" fill="none" filter="url(#bl)"/>
+<path d="M888 0H1280V300H746Z" fill="url(#pg)"/>
+<path d="M888 0H1280V300H746Z" fill="url(#sheen)"/>
+<path d="M914 0L772 300" stroke="#fff" stroke-opacity="0.380" stroke-width="1.2" fill="none"/><path d="M940 0L798 300" stroke="#fff" stroke-opacity="0.236" stroke-width="1.2" fill="none"/><path d="M966 0L824 300" stroke="#fff" stroke-opacity="0.122" stroke-width="1.2" fill="none"/>
+<path d="M888 0L746 300" stroke="url(#edge)" stroke-width="1.6" fill="none"/>
+<g transform="translate(888 0)"><path class="glint" d="M0 0L-35.5 75.0" stroke="url(#gl)" stroke-width="2.6" stroke-linecap="round" fill="none"/></g>
+<text class="n" x="82" y="154" fill="url(#nm)">nemcaya</text>
+<text class="t" x="85" y="208" fill="#566086">I build small, sharp tools for macOS.</text>
+</g>
+<rect x=".5" y=".5" width="1279" height="299" rx="19.5" fill="none" stroke="#1a2a8a" stroke-opacity=".14"/>
+</svg>
